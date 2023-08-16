@@ -1,16 +1,44 @@
-# Tauri + Vue 3 + TypeScript
+# Tauri + Vue + Typescript
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+一个使用 tauri+vue+ts 开发跨平台软件的模板，支持窗口头部自定义 UI 和拖拽和窗口阴影，不用再自己做适配了，拿来即用，非常 nice。
 
-## Recommended IDE Setup
+使用到的技术栈：  
+tauri：必须要用到的  
+vue：前端页面开发框架  
+vue-router：路由页面跳转控制  
+pinia：数据存储和共享  
+element-plus：UI 页面渲染  
+sass：样式编程  
+node：v16.18.0 本地开发依赖
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+## 页面预览：登陆页和主页
 
-## Type Support For `.vue` Imports in TS
+![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/image.1reeubafd2v4.webp)
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/image.xr5skp68j3k.webp)
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+## 本地开发配置
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+克隆到本地：
+
+```
+git clone https://github.com/Sjj1024/tauri-vue.git
+```
+
+安装依赖：
+
+```
+pnpm install
+```
+
+开发预览：第一次比较耗时和消耗电脑性能，因为要安装 tauri 依赖
+
+```
+pnpm develop
+```
+
+编译打包：打包为不同平台的安装文件
+
+```
+pnpm bundle
+```

@@ -54,11 +54,7 @@ router.beforeEach(async (to, from, next) => {
         : ''
     if (to.path === '/') {
         if (gitToken) {
-            // 存在token,就跳转到主页：记住上次的菜单和路由
-            // localStorage.removeItem("menuIndex")
-            localStorage.getItem('menuRoute')
-                ? next(localStorage.getItem('menuRoute')!)
-                : next('/index/files')
+            next('/board')
         } else {
             //否则就继续
             next()
