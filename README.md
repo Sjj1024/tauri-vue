@@ -13,9 +13,9 @@ node：v16.18.0 本地开发依赖
 
 ## 页面预览：登陆页和主页
 
-![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/image.1reeubafd2v4.webp)
+![](https://jsd.cdn.zzko.cn/gh//1024huijia/QingChunMeizi@master/image.1reeubafd2v4.webp)
 
-![](https://cdn.staticaly.com/gh/1024huijia/QingChunMeizi@master/image.xr5skp68j3k.webp)
+![](https://jsd.cdn.zzko.cn/gh//1024huijia/QingChunMeizi@master/image.xr5skp68j3k.webp)
 
 ## 本地开发配置
 
